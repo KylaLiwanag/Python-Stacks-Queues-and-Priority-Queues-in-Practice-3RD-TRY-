@@ -1,3 +1,5 @@
+#1st Example Building a Priority Queue Data Type
+
 from queues import PriorityQueue
 
 CRITICAL = 3

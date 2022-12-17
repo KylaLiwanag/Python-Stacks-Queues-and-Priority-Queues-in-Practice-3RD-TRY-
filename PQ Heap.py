@@ -1,4 +1,3 @@
-import heapq
 from heapq import heappush
 
 fruits = []

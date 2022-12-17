@@ -1,3 +1,4 @@
+#1st Example Representing Priority Queues With a Heap
 from heapq import heappush
 
 fruits = []
@@ -7,6 +8,8 @@ heappush(fruits, "banana")
 
 print(fruits)
 
+
+#2nd Example Representing Priority Queues With a Heap
 from heapq import heappop
 
 print(heappop(fruits))
@@ -14,6 +17,7 @@ print(heappop(fruits))
 
 print(fruits)
 
+#3rd Example Representing Priority Queues With a Heap
 
 person1 = ("John", "Brown", 42)
 person2 = ("John", "Doe", 42)

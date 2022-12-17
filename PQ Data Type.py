@@ -13,8 +13,4 @@ messages.enqueue_with_priority(IMPORTANT, "Hazard lights turned on")
 
 messages.dequeue()
 
-messages.dequeue()
 
-messages.dequeue()
-
-messages.dequeue()

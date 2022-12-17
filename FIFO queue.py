@@ -1,3 +1,4 @@
+#1st Example
 from queues import Queue
 
 fifo = Queue()
@@ -5,21 +6,18 @@ fifo.enqueue("1st")
 fifo.enqueue("2nd")
 fifo.enqueue("3rd")
 
-fifo.dequeue()
+print(fifo.dequeue())
 
-fifo.dequeue()
+print(fifo.dequeue())
 
-fifo.dequeue()
+print(fifo.dequeue())
 
+#2nd Example
 fifo = Queue("1st", "2nd", "3rd")
-len(fifo)
+print(len(fifo))
 
 
 for element in fifo:
     print(element)
 
-
-
-
-
-len(fifo)
+print(len(fifo))

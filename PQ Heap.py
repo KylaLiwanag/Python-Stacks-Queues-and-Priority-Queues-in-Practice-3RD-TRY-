@@ -10,7 +10,7 @@ print(fruits)
 
 from heapq import heappop
 
-heappop(fruits)
+print(heappop(fruits))
 
 
 print(fruits)
